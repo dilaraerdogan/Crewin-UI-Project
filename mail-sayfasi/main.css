@@ -1,0 +1,83 @@
+body .ana-container {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 834px;
+  height: 779px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -400px;
+}
+
+body .ana-container .message-field h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 23px;
+}
+
+body .ana-container .message-field h4 {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body .ana-container .message-field p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body .ana-container .message-field .buton-stil {
+  font-size: 14px;
+  background-color: #134E70;
+  border: none;
+  border-radius: 15px;
+  font-weight: 300;
+}
+
+body .ana-container .message-field .buton-stil:hover {
+  background-color: #b4d0dc;
+  color: #134E70;
+}
+
+body .ana-container .download-field {
+  background-color: #242424;
+}
+
+body .ana-container .download-field h5 {
+  color: #E7E7E7;
+  font-size: 18px;
+  padding: 15px 0px;
+}
+
+body .ana-container .download-field button {
+  background-color: #242424;
+  border-color: white;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+body .ana-container .download-field button:hover {
+  background-color: white;
+  color: #242424;
+  border: 1px solid #242424;
+}
+
+body .ana-container .last-field h5 {
+  color: #E7E7E7;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+body .ana-container .last-field i {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 10px solid white;
+  border-radius: 15px;
+}
+
+body .ana-container .last-field i:hover {
+  background-color: white;
+  color: #134E70;
+}
+/*# sourceMappingURL=main.css.map */

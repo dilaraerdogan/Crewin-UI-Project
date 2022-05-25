@@ -1,0 +1,79 @@
+body{
+    .ana-container{
+        border: 1px solid #000000;    
+        border-radius: 5px;
+        width: 834px;
+        height: 779px;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        margin-left: -400px;
+        .message-field{
+            h3{
+                font-size: 24px;
+                font-weight: bold;
+                padding-top: 23px;
+            }
+            h4{
+                padding-top: 20px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .buton-stil{
+                font-size: 14px;
+                background-color: #134E70;
+                border: none;
+                border-radius: 15px;
+                font-weight: 300;
+                &:hover{
+                    background-color: rgb(180, 208, 220);
+                    color:#134E70;
+                }
+            }
+        }
+        .download-field{
+            background-color: #242424;
+            h5{
+                color: #E7E7E7;
+                font-size: 18px;
+                padding: 15px 0px;
+            }
+            button{
+                background-color: #242424;
+                border-color: white;
+                font-weight: 300;
+                font-size: 14px;
+                border-radius: 20px;
+                &:hover{
+                    background-color: rgb(255, 255, 255);
+                    color:#242424 ;
+                    border: 1px solid #242424;
+                }
+            }
+        }
+        .last-field{
+            h5{
+                color: #E7E7E7;
+                font-size: 18px;
+                padding: 10px 0px;
+            }
+            i{
+                cursor: pointer;
+                background-color: #ffffff;
+                border: 10px solid rgb(255, 255, 255);
+                border-radius: 15px;
+                &:hover{
+                    background-color: rgb(255, 255, 255);
+                    color:#134E70 ;
+                }
+            }
+        }
+    }
+}
+    
+
+    

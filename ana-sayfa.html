@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="ana-sayfa/main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="top-main">
+    <div class="main col-md-11 col-sm-12">
+      <div class="top-navbar d-flex justify-content-between">
+        <div class="col-md-3">
+          <img src="ana-sayfa/photos/siboria.png" />
+        </div>
+        <div class="col-md-6">
+          <ul class="nav-links">
+            <li class="active">Home</li>
+            <li>Collections</li>
+            <li>How We Collect</li>
+            <li>Sell an Antique</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="col-md-3 d-flex justify-content-end">
+          <button type="button" class="btn btn-orange">
+            Our Collections
+          </button>
+        </div>
+      </div>
+      <div class="top-container pb-5">
+        <div class="first-column col-md-6 align-self-end">
+          <div class="bigger-text">World's Biggest</div>
+          <div class="bigger-blue-text">Antique Collection</div>
+          <div class="main-text">
+            <p class="lh-lg">
+              From they fine john he give of rich he. They age and draw <br>
+              mrs like. Improving end distruts may instantly was<br>
+              household applauded incommode. </p>
+          </div>
+          <div class="col-8 d-flex justify-content-around">
+            <button type="button" class="btn btn-orange2">
+              Discover Now
+            </button>
+            <button type="button" class="btn d-flex align-items-center justify-content-between"
+              style="border-width: 0px">
+              <i class="video-icon fa-solid fa-circle-play"></i>
+              <h6 class="video-text">Watch Video</h6>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="ana-sayfa/photos/image1.png" />
+        </div>
+        <div class="third-column col-md-2 d-flex flex-column justify-content-center">
+          <div class="align-self-center d-flex justify-content-between">
+            <div class="p-3 btn-icon align-self-center">
+              <i class="icon-stil fa-solid fa-circle-nodes"></i>
+            </div>
+            <div class="icon-text d-flex flex-column justify-content-around">
+              <p class="text-stil ps-2 pt-1 pb-1 mb-0">1322</p>
+              <p id="first-data" class="text-stil2 ps-3"></p>
+            </div>
+          </div>
+          <div class="align-self-center d-flex justify-content-between">
+            <div class="p-3 btn-icon align-self-center">
+              <i class="icon-stil fa-solid fa-trophy"></i>
+            </div>
+            <div class="icon-text d-flex flex-column justify-content-around">
+              <p class="text-stil ps-2 pt-1 pb-1 mb-0">29</p>
+              <p id="second-data" class="text-stil2 ps-3"></p>
+            </div>
+          </div>
+          <div class="align-self-center d-flex justify-content-between">
+            <div class="p-3 btn-icon align-self-center">
+              <i class="icon-stil fa-solid fa-city"></i>
+            </div>
+            <div class="icon-text d-flex flex-column justify-content-around">
+              <p class="text-stil ps-2 pt-1 pb-1 mb-0">China</p>
+              <p id="third-data" class="text-stil2 ps-3"></p>
+            </div>
+          </div>
+          <script>
+            var data1 = [["1322", "Year"], ["29", "Bids so far."], ["China", "origin"]];
+            document.getElementById("first-data").innerHTML = data1[0][1]
+            document.getElementById("second-data").innerHTML = data1[1][1]
+            document.getElementById("third-data").innerHTML = data1[2][1]
+
+          </script>
+        </div>
+      </div>
+      <div class="secondary-part align-self-center">
+        <div class="col-md-9 pt-4">
+          <ul class="category-links">
+            <div class="d-flex flex-column">
+              <li class="active">Location</li>
+              <select class="form-select ps-0 me-4" aria-label="Default select example">
+                <option selected>Norwey</option>
+                <option value="1">Canada</option>
+                <option value="2">England</option>
+                <option value="3">ABD</option>
+              </select>
+            </div>
+            <div class="d-flex flex-column">
+              <li class="active">Religion</li>
+              <select class="form-select ps-0 me-4" aria-label="Default select example">
+                <option selected>Asatro</option>
+                <option value="1">Islamism</option>
+                <option value="2">Christianism</option>
+                <option value="3">Atheism</option>
+              </select>
+            </div>
+            <div class="d-flex flex-column">
+              <li class="active">Year</li>
+              <select class="form-select ps-0 me-4" aria-label="Default select example">
+                <option selected>793 AD</option>
+                <option value="1">793 AD</option>
+                <option value="2">793 AD</option>
+                <option value="3">793 AD</option>
+              </select>
+            </div>
+            <div class="d-flex flex-column">
+              <li class="active">Type</li>
+              <select class="form-select ps-0 me-4" aria-label="Default select example">
+                <option selected>Weapons</option>
+                <option value="1">Weapons</option>
+                <option value="2">Weapons</option>
+                <option value="3">Weapons</option>
+              </select>
+            </div>
+          </ul>
+        </div>
+        <div class="col-md-3 pe-5 d-flex justify-content-end">
+          <button type="button" class="btn blue-btn mt-4 mb-4">
+            <i class="fa-solid fa-magnifying-glass p-2" style="font-size: 18px"></i>Search
+          </button>
+        </div>
+      </div>
+      <div class="third-part py-3 ps-3">
+        <p style="font-size: 54px; font-weight: bold">Recently Added</p>
+        <p style="color: #949494; font-size: 16px">
+          Not thoughts all exercise biessing. Indulgence way everything joy
+          alteration boisterous the attachment.
+        </p>
+        <div id="owl-carousel-two" class="col-sm-1 ps-3 py-4 slider-containerim slider owl-carousel owl-theme">
+          <div class="col-md-11 card p-3 shadow mb-5 bg-body rounded border-0">
+            <div class="img-field py-4 d-flex justify-content-center align-items-center">
+              <div class="col-3">
+                <img class="img-fluid" src="ana-sayfa/photos/kurukafa.png" />
+              </div>
+            </div>
+            <div class="content d-flex flex-column justify-content-center pt-3">
+              <h5 style="font-weight: bold">Data 1</h5>
+              <p id="little-title-id-0" class="little-title"></p>
+              <div class="d-flex justify-content-between">
+                <h5 id="h5-id-0" style="font-weight: bold; font-size: 24px"></h5>
+                <button id="button-id-0" type="button" class="btn btn-outline-info card-btn">
+                </button>
+              </div>
+              <div class="d-flex justify-content-between pt-3">
+                <p id="under-title-id-0" class="under-title"></p>
+                <p id="litle-title-id_0" class="little-title"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-11 card p-3 shadow mb-5 bg-body rounded border-0">
+            <div class="img-field py-4 d-flex justify-content-center align-items-center">
+              <div class="col-3">
+                <img class="img-fluid" src="ana-sayfa/photos/sehpa.png" />
+              </div>
+            </div>
+            <div class="content d-flex flex-column justify-content-center pt-3">
+              <h5 style="font-weight: bold">Data 2</h5>
+              <p id="little-title-id-1" class="little-title"></p>
+              <div class="d-flex justify-content-between">
+                <h5 id="h5-id-1" style="font-weight: bold; font-size: 24px"></h5>
+                <button id="button-id-1" type="button" class="btn btn-outline-info card-btn">
+                </button>
+              </div>
+              <div class="d-flex justify-content-between pt-3">
+                <p id="under-title-id-1" class="under-title"></p>
+                <p id="litle-title-id_1" class="little-title"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-11 card p-3 shadow mb-5 bg-body rounded border-0">
+            <div class="img-field py-4 d-flex justify-content-center align-items-center">
+              <div class="col-3">
+                <img class="img-fluid" src="ana-sayfa/photos/sandalye.png" />
+              </div>
+            </div>
+            <div class="content d-flex flex-column justify-content-center pt-3">
+              <h5 style="font-weight: bold">Data 3</h5>
+              <p id="little-title-id-2" class="little-title"></p>
+              <div class="d-flex justify-content-between">
+                <h5 id="h5-id-2" style="font-weight: bold; font-size: 24px"></h5>
+                <button id="button-id-2" type="button" class="btn btn-outline-info card-btn">
+                </button>
+              </div>
+              <div class="d-flex justify-content-between pt-3">
+                <p id="under-title-id-2" class="under-title"></p>
+                <p id="litle-title-id_2" class="little-title"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-11 card p-3 shadow mb-5 bg-body rounded border-0">
+            <div class="img-field py-4 d-flex justify-content-center align-items-center">
+              <div class="col-3">
+                <img class="img-fluid" src="ana-sayfa/photos/image1.png" />
+              </div>
+            </div>
+            <div class="content d-flex flex-column justify-content-center pt-3">
+              <h5 style="font-weight: bold">Data 4</h5>
+              <p id="little-title-id-3" class="little-title"></p>
+              <div class="d-flex justify-content-between">
+                <h5 id="h5-id-3" style="font-weight: bold; font-size: 24px"></h5>
+                <button id="button-id-3" type="button" class="btn btn-outline-info card-btn">
+                </button>
+              </div>
+              <div class="d-flex justify-content-between pt-3">
+                <p id="under-title-id-3" class="under-title"></p>
+                <p id="litle-title-id_3" class="little-title"></p>
+              </div>
+            </div>
+          </div>
+          <script>
+            var data2 = [
+              ["Data 1", "Year:1192 | Weapons", "$ 895.50", "View Details", "12 bids do far.", "Bidding closes in 12 Days"],
+              ["Data 2", "Year:1078 | Weapons", "$ 759", "View Details", "14 bids do far.", "Bidding closes in 12 Days"],
+              ["Data 3", "Year:1256 | Weapons", "$ 895.50", "View Details", "16 bids do far.", "Bidding closes in 12 Days"],
+              ["Data 4", "Year:1256 | Weapons", "$ 785.45", "View Details", "16 bids do far.", "Bidding closes in 12 Days"]
+            ];
+            for (var index = 0; index < data2.length; index++) {
+              document.getElementById("little-title-id-" + index).innerHTML = data2[index][1];
+              document.getElementById("h5-id-" + index).innerHTML = data2[index][2];
+              document.getElementById("button-id-" + index).innerHTML = data2[index][3];
+              document.getElementById("under-title-id-" + index).innerHTML = data2[index][4];
+              document.getElementById("litle-title-id_" + index).innerHTML = data2[index][5];
+
+            }
+          </script>
+        </div>
+      </div>
+      <div class="fourth-part pt-3 ps-3 mt-4 mb-4">
+        <p style="font-size: 54px; font-weight: bold">Top Categories</p>
+        <p style="color: #949494; font-size: 16px;">
+          Party we years to order allow asked of. We so opiniıo firends me
+          message as delight.
+        </p>
+        <div class="d-flex justify-content-around">
+          <div class="col-md-3 d-flex flex-column justify-content-between">
+            <div class="card py-3 mt-2 border-0">
+              <div class="d-flex justify-content-between">
+                <div class="col-md-4">
+                  <span class="tag badge rounded-pill px-2 shadow m-2 bg-body rounded border-0">122</span>
+                  <div class="tag-title">
+                    <span>Weapons</span>
+                    <span>Worefall</span>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="d-flex justify-content-center">
+                    <img src="ana-sayfa/photos/Skull-PNG-Image.png" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card py-3 mt-2 border-0">
+              <div class="d-flex justify-content-between">
+                <div class="col-md-4">
+                  <span class="tag badge rounded-pill px-2 shadow m-2 bg-body rounded border-0">71</span>
+                  <div class="tag-title">
+                    <span>Skulls</span>
+                    <span>Worefall</span>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="d-flex justify-content-center">
+                    <img src="ana-sayfa/photos/Skull-PNG-Image.png" class="img-fluid " />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mt-2 border-0">
+              <div class="d-flex justify-content-between" style="padding: 29px 0px">
+                <div class="col-md-4">
+                  <span class="tag badge rounded-pill px-2 shadow m-2 bg-body rounded border-0">35</span>
+                  <div class="tag-title">
+                    <span>Statues</span>
+                    <span>Worefall</span>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="d-flex justify-content-end pe-4">
+                    <img src="ana-sayfa/photos/toppng.png" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5  d-flex flex-column justify-content-between">
+            <div class="card py-3 mt-2 mb-3 border-0">
+              <div class="d-flex justify-content-between">
+                <div class="col-md-4">
+                  <span class="tag badge rounded-pill px-2 shadow m-2 bg-body rounded border-0">35</span>
+                  <div class="tag-title">
+                    <span>Keep</span>
+                    <span>Worefall</span>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="d-flex justify-content-end pe-4">
+                    <img src="ana-sayfa/photos/Daco_5300329_1.png" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="col-md-5 align-self-end">
+                <div class="card mt-2 border-0" style="padding: 40px 0px">
+                  <div class=" d-flex justify-content-between align-items-end">
+                    <div class="col-md-3">
+                      <span class="tag badge rounded-pill px-2 shadow m-2 bg-body rounded border-0">98</span>
+                      <div class="tag-title">
+                        <span>Watches</span>
+                        <span>Worefall</span>
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="d-flex justify-content-center pe-4">
+                        <img src="ana-sayfa/photos/clipart4201430_2.png" class="img-fluid" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 align-self-end">
+                <div class="card py-4 mt-2 border-0">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-md-5">
+                      <span class="tag badge rounded-pill px-2 shadow m-2 bg-body rounded border-0">812</span>
+                      <div class="tag-title">
+                        <span>Furniture</span>
+                        <span>Worefall</span>
+                      </div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="d-flex justify-content-end pe-4">
+                        <img src="ana-sayfa/photos/clipart4201430_1.png" class="img-fluid" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fifth-part">
+        <div class="col-md-4 pt-2">
+          <img src="ana-sayfa/photos/angel.png">
+        </div>
+        <div class="pictorial-section col-md-6 align-self-center">
+          <h6>Buyer’s Feedback</h6>
+          <p class="lh-lg">Whoe front da of piate heard ah ought. His
+            defective<br>nor convinced residense won. Conenction has put <br> impossible own apartments boisterous.</p>
+          <div class="person-content d-flex justify-content-start mt-3">
+            <div class="col-md-1">
+              <img src="ana-sayfa/photos/person-img.png" class="img-fluid">
+            </div>
+            <div class="col-md-4 d-flex flex-column ps-3 ">
+              <span>Helena Hakim</span>
+              <span>UI Designer</span>
+              <div class="d-flex justify-content-start py-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sixth-part align-items-end mb-5 pb-5">
+        <div class="pictorial-section col-md-5">
+          <h5 class="mb-3">Subscribe our newsletter</h5>
+          <p class="lh-lg mb-5">Reciev latest news, update, and many other
+            things<br>
+            every week.</p>
+          <form action="/#action">
+            <div class="input-container col-9">
+              <input class="input-field" type="text" placeholder="Enter Your email address" name="username">
+              <i class="fa-solid fa-paper-plane icon"></i>
+            </div>
+          </form>
+        </div>
+        <div class="big-image col-md-4 d-flex justify-content-center">
+          <img src="ana-sayfa/photos/gramofon.png">
+        </div>
+      </div>
+      <div class="under-part d-flex justify-content-between">
+        <div class="col-md-2 p-2">
+          <div class="list-group">
+            <h6 class="sub-title">Resources</h6>
+            <a href="#" class="list-group-item list-group-item-action ">Download</a>
+            <a href="#" class="list-group-item list-group-item-action">Help Center</a>
+            <a href="#" class="list-group-item list-group-item-action">Guide Book</a>
+            <a href="#" class="list-group-item list-group-item-action">App Directory</a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="list-group p-2">
+            <h6 class="sub-title">Seboria</h6>
+            <a href="#" class="list-group-item list-group-item-action ">Why Seboria</a>
+            <a href="#" class="list-group-item list-group-item-action">Our Collection Process</a>
+            <a href="#" class="list-group-item list-group-item-action">Customer Stories</a>
+            <a href="#" class="list-group-item list-group-item-action">Instagram Post </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="list-group p-2">
+            <h6 class="sub-title">Company</h6>
+            <a href="#" class="list-group-item list-group-item-action ">Antiques</a>
+            <a href="#" class="list-group-item list-group-item-action">Abour Seboria</a>
+            <a href="#" class="list-group-item list-group-item-action">Success</a>
+            <a href="#" class="list-group-item list-group-item-action">Information</a>
+          </div>
+        </div>
+        <div class="col-md-3 p-2">
+          <div class="list-group">
+            <h6 class="sub-title">Get in Touch</h6>
+            <a href="#" class="fs-6 lh-lg">
+              Feel free to get in touch with us <br> vai emalil
+            </a>
+            <p style="color:#00B2FF ; font-weight:bold; font-size:18px">shakir260@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="last-part d-flex justify-content-around mt-5">
+        <div class="col-md-3">
+          <div class="col-md-3"><img class="img-fluid" src="ana-sayfa/photos/siboria2.png" /></div>
+
+        </div>
+        <div class="col-md-6">
+          <ul class="nav-links">
+            <li class="active">Home</li>
+            <li>Collections</li>
+            <li>How We Collect</li>
+            <li>Sell an Antique</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="col-md-3 d-flex justify-content-end social-media">
+          <div class="col-md-4 d-flex justify-content-around">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <script src="js/jquery.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
